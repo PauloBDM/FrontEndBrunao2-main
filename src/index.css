@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Isso ajuda a incluir a borda e o padding no cálculo da largura */
+}
+
+body {
+  margin: 0; /* Remover margens do body */
+  padding: 0; /* Remover preenchimentos do body */
+}

@@ -1,0 +1,85 @@
+.div_fots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  h1 {
+    font-family: "AlfaSlab";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+}
+.svg_seta {
+  padding-left: 30px;
+}
+
+.borda_cadastrar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  padding-left: 30px;
+  margin-left: 500px;
+  font-family: "AlfaSlab";
+  textarea {
+    width: 50%; /* Largura do textarea */
+    height: 100px; /* Altura do textarea */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda do textarea */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte do textarea */
+  }
+
+  textarea::placeholder {
+    font-size: 18px; /* Tamanho do placeholder */
+    color: #999; /* Cor do placeholder */
+    opacity: 1; /* Opacidade do placeholder */
+  }
+  h4 {
+    color: #000;
+    text-align: center;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #fff;
+    font-family: "AlfaSlab";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  input {
+    width: 70%;
+    margin: 10px 0;
+  }
+
+  padding-top: 15px;
+  width: 832px;
+  height: 488px;
+  border-radius: 25px;
+  border: 5px solid #000;
+  background: #f5b91e;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn_cadastrar {
+  margin-left: 600px;
+  width: 166px;
+  height: 57px;
+  color: #000;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: #0f0;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.btn_cadastrar:hover {
+  color: aliceblue;
+}
