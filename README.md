@@ -1,3 +1,19 @@
+
+Este é o front-end do sistema de gerenciamento para trabalhadores autônomos, desenvolvido com **React**.
+
+O sistema conta com uma **landing page** inicial e uma **área de acesso exclusiva**, onde o trabalhador pode criar, visualizar, editar e excluir serviços prestados — ou seja, todo o **CRUD**.
+
+## 🛠️ Tecnologias utilizadas
+- React
+- React Router
+- Axios
+- SCSS
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
